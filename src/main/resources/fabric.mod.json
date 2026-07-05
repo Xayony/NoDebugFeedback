@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "nodebugfeedback",
+  "version": "${version}",
+  "name": "No Debug Feedback",
+  "description": "Suppresses the [Debug] chat messages sent by F3 shortcuts.",
+  "authors": ["xayon"],
+  "contact": {},
+  "license": "CC0-1.0",
+  "icon": "assets/ndf/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "nodebugfeedback.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25"
+  }
+}
