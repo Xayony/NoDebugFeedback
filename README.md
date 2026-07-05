@@ -18,4 +18,3 @@ it, so nothing ever reaches chat. One mixin.
 ```
 
 Output jar lands in `build/libs/`. Drop it in your `mods` folder
-alongside Fabric Loader 0.19.3+ and Fabric API 0.150.1+26.2.
